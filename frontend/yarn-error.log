@@ -1,0 +1,114 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files\Eclipse Adoptium\jdk-11.0.19.7-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\Rafael\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Users\Rafael\AppData\Local\Microsoft\WindowsApps;C:\Android\Sdk\emulator;C:\Android\Sdk\tools;C:\Android\Sdk\tools\bin;C:\Android\Sdk\platform-tools;C:\Users\Rafael\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Rafael\AppData\Local\GitHubDesktop\bin;C:\Users\Rafael\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@material-ui/icons/-/icons-4.11.3.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\Rafael\AppData\Roaming\nvm\v16.14.0\node_modules\yarn\lib\cli.js:141517:19)
+      at Object.onceWrapper (node:events:639:28)
+      at ClientRequest.emit (node:events:520:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:758:9)
+      at Object.onceWrapper (node:events:639:28)
+      at TLSSocket.emit (node:events:532:35)
+      at TLSSocket.Socket._onTimeout (node:net:501:8)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7)
+
+npm manifest: 
+  {
+    "name": "frontend",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@date-io/date-fns": "^2.14.0",
+      "@material-ui/core": "4.12.3",
+      "@material-ui/icons": "^4.9.1",
+      "@material-ui/lab": "^4.0.0-alpha.56",
+      "@material-ui/pickers": "^3.3.10",
+      "@testing-library/jest-dom": "^5.11.4",
+      "@testing-library/react": "^11.0.4",
+      "@testing-library/user-event": "^12.1.7",
+      "axios": "^0.21.1",
+      "bootstrap": "^5.2.3",
+      "compressorjs": "^1.2.1",
+      "context": "^4.0.0",
+      "date-fns": "^2.16.1",
+      "emoji-mart": "^3.0.0",
+      "formik": "^2.2.0",
+      "formik-material-ui": "^3.0.1",
+      "gn-api-sdk-node": "^3.0.2",
+      "i18next": "^19.8.2",
+      "i18next-browser-languagedetector": "^6.0.1",
+      "react-facebook-login": "^4.1.1",
+      "markdown-to-jsx": "^7.1.0",
+      "material-ui-color": "^1.2.0",
+      "mic-recorder-to-mp3": "^2.2.2",
+      "material-ui-popup-state": "^1.7.0",
+      "moment": "^2.29.1",
+      "qrcode.react": "^1.0.0",
+      "query-string": "^7.0.0",
+      "react": "^16.13.1",
+      "react-bootstrap": "^2.7.0",
+      "react-color": "^2.19.3",
+      "react-copy-to-clipboard": "^5.1.0",
+      "react-currency-format": "^1.1.0",
+      "react-dom": "^16.13.1",
+      "react-icons": "^4.4.0",
+      "react-input-mask": "^2.0.4",
+      "react-modal-image": "^2.5.0",
+      "react-number-format": "^4.6.4",
+      "react-qr-code": "^2.0.7",
+      "react-router-dom": "^5.2.0",
+      "react-scripts": "3.4.3",
+      "react-text-mask": "^5.5.0",
+      "react-toastify": "9.0.0",
+      "recharts": "^2.0.2",
+      "socket.io-client": "^3.0.5",
+      "styled-components": "^5.3.5",
+      "text-mask-addons": "^3.8.0",
+      "use-debounce": "^7.0.0",
+      "use-sound": "^2.0.1",
+      "uuid": "^8.3.2",
+      "yup": "^0.32.8"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "legacy": "react-scripts start",
+      "build": "GENERATE_SOURCEMAP=false react-scripts build",
+      "winBuild": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
